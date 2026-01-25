@@ -1,5 +1,6 @@
 // Data fetching logic
-import { fetchAPI, APIResponse } from "./api";
+import { fetchAPI } from "./api";
+import { APIResponse } from "@/types/api";
 import { Widget } from "@/types/widget";
 
 /**
