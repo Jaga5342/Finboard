@@ -171,7 +171,7 @@ export default function Home() {
         ? crypto.randomUUID()
         : `${Date.now()}-${Math.random().toString(16).slice(2)}`;
 
-    const position = getNextWidgetPosition(layout, DEFAULT_SIZE);
+    const position = getNextWidgetPosition(layout as any[], DEFAULT_SIZE);
 
     const refreshIntervalMs = Math.max(payload.refreshInterval, 5) * 1000;
 
