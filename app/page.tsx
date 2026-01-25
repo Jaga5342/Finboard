@@ -20,7 +20,7 @@ function normalizeInterval(interval?: number): number | null {
 }
 
 function getNextWidgetPosition(
-  layout: Layout[],
+  layout: any[],
   size: { width: number; height: number }
 ): { x: number; y: number } {
   if (layout.length === 0) {
