@@ -63,3 +63,6 @@ A powerful, customizable finance dashboard built with Next.js, allowing users to
 - **Client-Side Fetching**: Widgets fetch data directly from the client to allow users to connect to any API without proxying, though CORS restrictions apply.
 - **Zustand**: Chosen for its simplicity and ease of persisting deeply nested state objects like dashboard layouts.
 - **Tailwind**: Used for rapid, scalable styling with dark mode support.
+
+
+--We build the project for Everyone to solve their problem.
